@@ -1,4 +1,4 @@
-package assingment1.java;
+package lect1assingment.java;
 
 import java.util.Scanner;
 
@@ -9,7 +9,7 @@ public class assinment2 {
 //    Age
 //    College
 
-    static void main(String[] args) {
+    static void main() {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Enter name of students: ");
