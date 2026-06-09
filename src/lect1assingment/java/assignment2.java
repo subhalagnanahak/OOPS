@@ -2,7 +2,7 @@ package lect1assingment.java;
 
 import java.util.Scanner;
 
-public class assinment2 {
+public class assignment2 {
 //    Assignment 2: Input from User
 //    Take input:
 //    Name

@@ -1,4 +1,4 @@
-package assingment1.java;
+package lect1assingment.java;
 
 import java.util.Scanner;
 

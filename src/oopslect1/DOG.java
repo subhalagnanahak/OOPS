@@ -1,5 +1,6 @@
+package oopslect1;
 
-    import java.util.Scanner;
+import java.util.Scanner;
 
     public class DOG {
 
@@ -30,7 +31,7 @@
         }
 
         // ✅ main method is INSIDE the class
-        public static void main(String[] args) {
+        static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
             DOG myDog = new DOG();
 
