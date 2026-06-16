@@ -30,7 +30,7 @@ import java.util.Scanner;
             System.out.println("Dog Class: " + this);
         }
 
-        // ✅ main method is INSIDE the class
+        // ✅ Main method is INSIDE the class
         static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
             DOG myDog = new DOG();
