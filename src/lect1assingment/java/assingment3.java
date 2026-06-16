@@ -21,8 +21,8 @@ public class assingment3 {
         int num2 = input.nextInt();
 
         System.out.println("Addition " + (num1 + num2));
-        System.out.println ("Substraction " +  (num1 + num2));
-        System.out.println ("Divison"  + num1 / num2);
+        System.out.println ("Substraction " +  (num1 - num2));
+        System.out.println ("Divison"  + num1 / num2 );
         System.out.println ("Remainder " + num1 % num2);
         System.out.println ("multiplication " + num1 * num2);
 
