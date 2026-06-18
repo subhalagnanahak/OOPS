@@ -1,4 +1,4 @@
-package lect1assingment.java;
+package oopslect1.java;
 
 import java.util.Scanner;
 //Take marks as input.
