@@ -14,6 +14,9 @@ public class Box {
 
     //cube
     Box(double side) {
+
+           // super(); // super keyword - calls the constructor of object  class
+
             this.w = side;
             this.l = side;
             this.h = side;

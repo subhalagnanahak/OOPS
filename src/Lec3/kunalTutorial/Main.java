@@ -22,9 +22,10 @@ public class Main {
         // you are given acess to variable that are in that are in the ref. type i.e BoxWeight
         //hence, you should have acess to weight variable
         //this also means , that the one you are trying to  acess should be initialised
-        //but here, when the obj itself
-        BoxWeight  box6 = new BoxWeight(2,3,4,6);
-        System.out.println (box6);
+        //but here, when the obj itself is of type parent class  how will you call the constructer of child class
+// this is why error
+//        BoxWeight  box6 = new BoxWeight(2,3,4,6);
+//        System.out.println (box6);
 
 
    }
