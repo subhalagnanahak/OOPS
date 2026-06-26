@@ -1,26 +1,15 @@
 package Lec3.kunalTutorial;
 
-public class BoxWeight extends Box{
-    double weight ;
+public class BoxWeight extends Box {
+    double weight;
 
-    public BoxWeight(){
-
-        super(box1);
+    public BoxWeight() {
+        super(0, 0, 0);   // pass whatever default l, w, h Box expects
         this.weight = -1;
-
-
     }
 
-
-    public BoxWeight(double weight) {
-        super(box1);
+    public BoxWeight(double l, double w, double h, double weight) {
+        super(l, h, w);   // this one already works correctly
         this.weight = weight;
-    }
-
-    public BoxWeight(double l , double w ,double h , double weight) {
-        super(l, h, w );   // call the parent class constructor
-                            // used to initialise values present in parent class
-        this.weight = weight;
-
     }
 }
