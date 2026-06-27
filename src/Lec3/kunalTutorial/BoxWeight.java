@@ -8,16 +8,13 @@ public class BoxWeight extends Box {
         this.weight = -1;
     }
 
-
+    BoxWeight(BoxWeight other) {
+        super(other);          // calls Box's copy constructor, copies l, h, w
+        this.weight = other.weight;
+    }
 
     public BoxWeight(double l, double w, double h, double weight) {
-        super(l, h, w);   // this one already works correctly
-        //used to intialiese values present in parent class.
-
-       // System.out.println (super.weight);
-
-      //  super (l, h , w ) ; // what is this ? call the parent class constructor
-        // super class dont what base contains
+        super(l, h, w);   // must be the first statement, and only called once
         this.weight = weight;
     }
 }
