@@ -8,12 +8,12 @@ public class FinalKeyword {
 
     /*
      * 'final' restricts change.  Can be applied to:
-     *   (a) Variable → value cannot change after first assignment (constant)
-     *   (b) Method   → cannot be overridden in a subclass
+     *   (A) Variable → value cannot change after first assignment (constant)
+     *   (b) Method   → cannot be overridden in A subclass
      *   (c) Class    → cannot be extended (subclassed)
      */
 
-    // ── (a) final VARIABLE ───────────────────────────────────────────────────
+    // ── (A) final VARIABLE ───────────────────────────────────────────────────
     class Constants {
 
         /*
@@ -27,7 +27,7 @@ public class FinalKeyword {
             System.out.println(PI);
             System.out.println(MAX_STUDENTS);
 
-            // PI = 3.0;  // COMPILE ERROR: cannot assign a value to final variable
+            // PI = 3.0;  // COMPILE ERROR: cannot assign A value to final variable
         }
     }
 
@@ -48,7 +48,7 @@ public class FinalKeyword {
 
     // ── (c) final CLASS ──────────────────────────────────────────────────────
     /*
-     * Cannot create a subclass of a final class.
+     * Cannot create A subclass of A final class.
      * Java's  String, Integer, Double  are all final classes.
      */
     static final class Singleton {

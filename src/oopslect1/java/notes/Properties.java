@@ -11,7 +11,7 @@ public class Properties {
      *
      *  1. STATE
      *     ───────
-     *     The data / values stored in the object's fields at a given moment.
+     *     The data / values stored in the object's fields at A given moment.
      *     e.g. name = "Priya", age = 20, gpa = 9.1
      *
      *  2. BEHAVIOUR

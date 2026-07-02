@@ -3,7 +3,7 @@ package oopslect1.java;
 public class main {
 
 //    Assignment 1: Variables & Data Types
-//    Create a class called StudentInfo.
+//    Create A class called StudentInfo.
 //    Store:
 //    name
 //    age

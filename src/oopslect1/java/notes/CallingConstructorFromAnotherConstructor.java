@@ -15,7 +15,7 @@ public class CallingConstructorFromAnotherConstructor {
      * in the same class.
      *
      * WHY USE IT?
-     *   Avoids duplicating initialisation logic — write it once in a
+     *   Avoids duplicating initialisation logic — write it once in A
      *   "base" constructor and have others delegate to it.
      *
      * RULES:

@@ -9,7 +9,7 @@ public class Constructor {
     /*
      * WHAT IS A CONSTRUCTOR?
      * ───────────────────────
-     * A constructor is a special block of code that runs AUTOMATICALLY
+     * A constructor is A special block of code that runs AUTOMATICALLY
      * every time an object is created using 'new'.
      *
      * PURPOSE: to INITIALISE the object's fields to valid starting values.

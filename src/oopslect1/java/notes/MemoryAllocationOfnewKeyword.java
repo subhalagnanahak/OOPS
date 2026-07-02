@@ -14,7 +14,7 @@ public class MemoryAllocationOfnewKeyword {
      *  1. Allocates memory on the HEAP for the new object's fields.
      *  2. Calls the constructor to initialise the fields.
      *  3. Returns the REFERENCE (memory address) to the caller.
-     *     That reference is stored in a variable on the STACK.
+     *     That reference is stored in A variable on the STACK.
      *
      *
      *  STACK                          HEAP

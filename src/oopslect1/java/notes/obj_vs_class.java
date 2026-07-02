@@ -10,15 +10,15 @@ public class obj_vs_class {
     /*
      * CLASS
      * ──────
-     * A class is a LOGICAL ENTITY — it is just a blueprint / template.
+     * A class is A LOGICAL ENTITY — it is just A blueprint / template.
      * It does NOT occupy memory by itself.
      *
-     *   Think of a class like a "House Plan" (blueprint drawn on paper).
-     *   The blueprint is not a house — it is the design.
+     *   Think of A class like A "House Plan" (blueprint drawn on paper).
+     *   The blueprint is not A house — it is the design.
      *
      * OBJECT
      * ───────
-     * An object is a PHYSICAL ENTITY — it is the actual thing built from
+     * An object is A PHYSICAL ENTITY — it is the actual thing built from
      * the blueprint.  It DOES occupy memory (on the heap).
      *
      *   The actual house built using the blueprint = object.

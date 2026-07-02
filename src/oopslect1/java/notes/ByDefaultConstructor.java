@@ -10,7 +10,7 @@ public class ByDefaultConstructor {
      * DEFAULT CONSTRUCTOR
      * ────────────────────
      * If you do NOT write ANY constructor in your class,
-     * Java automatically provides a NO-ARGUMENT constructor:
+     * Java automatically provides A NO-ARGUMENT constructor:
      *
      *   ClassName() { }   ← this is what Java inserts invisibly
      *
@@ -23,7 +23,7 @@ public class ByDefaultConstructor {
      *
      * ⚠  IMPORTANT:
      *   Once you write ANY constructor yourself, Java REMOVES the default.
-     *   If you still want a no-arg constructor, you must write it manually.
+     *   If you still want A no-arg constructor, you must write it manually.
      */
 
     static class Animal {

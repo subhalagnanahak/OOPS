@@ -10,12 +10,12 @@ public class ThisKeyword {
     /*
      * WHAT IS 'this'?
      * ────────────────
-     * 'this' is a reference to the CURRENT OBJECT —
+     * 'this' is A reference to the CURRENT OBJECT —
      * the object on which the method/constructor is currently executing.
      *
      * WHY DO WE NEED IT?
      * ───────────────────
-     * When a parameter has the SAME NAME as an instance variable,
+     * When A parameter has the SAME NAME as an instance variable,
      * the parameter SHADOWS (hides) the instance variable inside that method.
      *
      *   void setName(String name) {

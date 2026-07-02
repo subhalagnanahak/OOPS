@@ -9,11 +9,11 @@ public class Class {
     /*
      * WHAT IS A CLASS?
      * ─────────────────
-     * A class is a BLUEPRINT / TEMPLATE that describes:
+     * A class is A BLUEPRINT / TEMPLATE that describes:
      *   • What data an object will hold  → fields (instance variables)
      *   • What an object can do          → methods
      *
-     * No memory is allocated just by defining a class.
+     * No memory is allocated just by defining A class.
      * Memory is only allocated when you create an OBJECT from the class.
      *
      * SYNTAX:

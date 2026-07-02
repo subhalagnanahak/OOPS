@@ -23,7 +23,7 @@ public class Main {
         //      greeting(); // you cant use this because it requires an instance but the function you are
         //      using it in doses not depend on instances
 
-        // you cannot access non static stuff without referencing their instance in a static context
+        // you cannot access non static stuff without referencing their instance in A static context
 
 
         // hence , here i m referencing it

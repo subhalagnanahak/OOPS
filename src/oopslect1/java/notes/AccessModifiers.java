@@ -1,7 +1,7 @@
 package oopslect1.java.notes;
 
 public class AccessModifiers {
-    /* Access modifiers in Java are keywords that define where a class, method, variable, or constructor can be accessed from. They enforce encapsulation and control visibility in a program.
+    /* Access modifiers in Java are keywords that define where A class, method, variable, or constructor can be accessed from. They enforce encapsulation and control visibility in A program.
 
 Java has four access modifiers:
 

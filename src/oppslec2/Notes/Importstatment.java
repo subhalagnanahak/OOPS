@@ -9,7 +9,7 @@ public class Importstatment {
 // - Without import → you'd have to write full path every time
 //   e.g.  java.util.ArrayList  instead of just  ArrayList
 // - java.lang.*  is auto-imported by Java (no need to write it)
-// - import only gives a name shortcut — does NOT copy the class
+// - import only gives A name shortcut — does NOT copy the class
 
            //   import java.util.ArrayList;        // import ONE specific class
             //  import java.util.Scanner;

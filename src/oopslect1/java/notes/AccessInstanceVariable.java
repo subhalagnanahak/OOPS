@@ -37,7 +37,7 @@ public class AccessInstanceVariable {
             System.out.println(s1.name);  // Priya
             System.out.println(s1.age);   // 20
 
-            // calling a method on the object
+            // calling A method on the object
             s1.displayInfo();  // Name: Priya | Age: 20 | GPA: 9.1
         }
     }

@@ -13,7 +13,7 @@ public class constructors {
     }
 
     /* ------------------------------------------------------ */
-    /* creating a Class */
+    /* creating A Class */
 
     static class Student2 {
 
@@ -47,7 +47,7 @@ public class constructors {
     public class ConstructorNotes {
 
         // It basically defines what happens when your object will be created.
-        // It is a special "function" that runs when you create an object, and it allocates some variables.
+        // It is A special "function" that runs when you create an object, and it allocates some variables.
 
         public static void main(String[] args) {
 

@@ -6,7 +6,7 @@ public class InnerClass {
 // 7. INNER CLASSES
 // ─────────────────────────────────────────────────────────────
 // A class defined INSIDE another class
-// 4 types: (a) Regular inner  (b) Static nested  (c) Local  (d) Anonymous
+// 4 types: (A) Regular inner  (b) Static nested  (c) Local  (d) Anonymous
 
     class Outer {
 
@@ -15,7 +15,7 @@ public class InnerClass {
 
         void methodWithLocalClass() {
 
-            // (c) LOCAL INNER CLASS — defined inside a method
+            // (c) LOCAL INNER CLASS — defined inside A method
             // - visible only inside that method
             class Local {
                 void greet() {
@@ -45,7 +45,7 @@ public class InnerClass {
             }
         }
 
-        // (a) REGULAR INNER CLASS
+        // (A) REGULAR INNER CLASS
         // - needs an Outer object to exist
         // - can access outer's non-static & static members
         class Inner {

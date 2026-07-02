@@ -5,7 +5,7 @@ public class Nonstatic {
 // 4. NON-STATIC MEMBER INSIDE A STATIC CONTEXT
 // ─────────────────────────────────────────────────────────────
 // - Static method has NO 'this' → it doesn't know which object to use
-// - So you CANNOT directly access a non-static member in a static method
+// - So you CANNOT directly access A non-static member in A static method
 // - Solution → create an object INSIDE the static method
 
     static class NonStaticInStatic {

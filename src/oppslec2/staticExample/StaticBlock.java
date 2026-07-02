@@ -8,7 +8,7 @@ For example:
 String str = "abc"; */
 
 
-//this is  a demo to show initialization of static variables
+//this is  A demo to show initialization of static variables
 
 public class StaticBlock {
     static int a = 4;

@@ -15,7 +15,7 @@ public class This_keyword {
 
         static void staticMethod() {
             // System.out.println(this.value);  // ❌ COMPILE ERROR
-            // 'this' cannot be referenced from a static context
+            // 'this' cannot be referenced from A static context
 
             // Why? Because staticMethod() can be called as:
             // ThisInStatic.staticMethod()  — without any object at all!

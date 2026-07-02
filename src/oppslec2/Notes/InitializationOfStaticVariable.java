@@ -3,7 +3,7 @@ package oppslec2.Notes;
 public class InitializationOfStaticVariable {
     // 6. INITIALIZING A STATIC VARIABLE
 // ─────────────────────────────────────────────────────────────
-// Three ways to initialize a static variable:
+// Three ways to initialize A static variable:
 
     class StaticInitDemo {
 

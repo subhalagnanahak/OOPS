@@ -12,14 +12,14 @@ public class GrbageCollection {
      * Java has AUTOMATIC MEMORY MANAGEMENT.
      * The JVM's Garbage Collector runs in the background and
      * AUTOMATICALLY FREES heap memory from objects that are no longer
-     * reachable — i.e., no variable anywhere holds a reference to them.
+     * reachable — i.e., no variable anywhere holds A reference to them.
      *
      * You do NOT need to free memory manually (unlike C/C++).
      *
      * AN OBJECT BECOMES ELIGIBLE FOR GC WHEN:
      *   1. Its reference is set to null          →  ref = null;
      *   2. Its reference goes out of scope
-     *      (e.g., end of a method / block)
+     *      (e.g., end of A method / block)
      *   3. Its reference is reassigned to another object
      *   4. Island of isolation — objects reference only each other
      *      but no external reference exists to the group
@@ -60,12 +60,12 @@ public class GrbageCollection {
             /*
              * System.gc() — DO NOT USE in production
              * ─────────────────────────────────────────
-             * This is just a REQUEST to the JVM to run GC.
+             * This is just A REQUEST to the JVM to run GC.
              * The JVM may IGNORE it.
-             * Calling it manually can trigger a Full GC and hurt performance.
+             * Calling it manually can trigger A Full GC and hurt performance.
              * Trust the JVM — it knows when to collect.
              */
-            // System.gc(); // just a hint — not guaranteed
+            // System.gc(); // just A hint — not guaranteed
         }
     }
 

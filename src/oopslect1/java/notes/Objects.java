@@ -7,11 +7,11 @@ package oopslect1.java.notes;
  *
  * WHAT IS AN OBJECT?
  * ───────────────────
- * An object is a real, concrete INSTANCE of a class.
+ * An object is A real, concrete INSTANCE of A class.
  * When you create an object:
  *   1. The JVM allocates memory on the HEAP for the object's fields.
  *   2. The constructor runs to initialize those fields.
- *   3. A REFERENCE (memory address) is returned and stored in a
+ *   3. A REFERENCE (memory address) is returned and stored in A
  *      reference variable on the STACK.
  *
  * SYNTAX:
@@ -70,10 +70,10 @@ public class Objects {
              *
              *   Stack          Heap
              *   ──────         ────────────────────────────
-             *   a  ──────────► [ Student: name="Raj", age=19 ]
+             *   A  ──────────► [ Student: name="Raj", age=19 ]
              *   b  ──────────►          (same object!)
              *
-             * Changing b.name ALSO changes what a.name sees,
+             * Changing b.name ALSO changes what A.name sees,
              * because they both point to the same heap object.
              */
             Student a = new Student();

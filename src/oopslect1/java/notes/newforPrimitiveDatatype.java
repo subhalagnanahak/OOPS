@@ -29,7 +29,7 @@ public class newforPrimitiveDatatype {
      *   int age = 21;            → value 21 stored directly on stack
      *   Student s = new Student(); → reference on stack, object on heap
      *
-     * String is a special case:
+     * String is A special case:
      *   String s = "Hello";          ← literal — stored in String Pool (no new)
      *   String s = new String("Hi"); ← object on heap (wasteful, avoid this)
      */

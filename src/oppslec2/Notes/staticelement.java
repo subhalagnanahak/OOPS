@@ -37,7 +37,7 @@ public class staticelement {
 
 /* USAGE (inside main or test)
    StaticDemo.showCount();        // no object needed
-   StaticDemo a = new StaticDemo("Alice");
+   StaticDemo A = new StaticDemo("Alice");
    StaticDemo b = new StaticDemo("Bob");
    StaticDemo.showCount();        // prints 2
 */

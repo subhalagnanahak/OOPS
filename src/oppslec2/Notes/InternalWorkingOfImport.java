@@ -24,7 +24,7 @@ public class InternalWorkingOfImport {
 //   Static members & static blocks are initialized at this point
 //
 // STEP 3 — NO actual code is copied
-//   import is just a "nickname agreement" — it shortens your source code
+//   import is just A "nickname agreement" — it shortens your source code
 //   The real class lives in the JDK/jar, not inside your file
 //
 // CIRCULAR IMPORTS? — Java handles it (unlike some languages)
