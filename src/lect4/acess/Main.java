@@ -11,8 +11,3 @@ public class Main {
 
 //        ArrayList<Integer> list = new ArrayList<>(23);
 //        list.DEFAULT_CAPACITY;
-
-      obj.getNum();
-
-    }
-}
