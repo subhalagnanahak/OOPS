@@ -2,7 +2,7 @@ package basics.assingments;
 
 import java.util.Scanner;
 
-public class CheckEuqals {
+public class CheckEquals {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -27,4 +27,4 @@ public class CheckEuqals {
 
 
     }
-}
+
