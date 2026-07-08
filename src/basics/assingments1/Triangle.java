@@ -1,4 +1,4 @@
-package basics.assingments;
+package basics.assingments1;
 import java.util.Scanner;
 public class Triangle {
     public static void main (String [] args ) {
