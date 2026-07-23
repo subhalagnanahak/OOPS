@@ -14,4 +14,6 @@ public class motorCycle extends Vehicle {
         System.out.println ("motorCycle is doing wheelieeee !" + name  );
     }
 
+    public void stopEngine() {
+    }
 }
