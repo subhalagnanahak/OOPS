@@ -8,7 +8,7 @@ public class Main {
 //        c.startAC();
 //        c.stopEngine();
         motorCycle m = new motorCycle("splender " , "u" , 2, "2", "soft "  );
-        m.stopEngine();
+        m.startEngine();
         m.wheelie () ;
        m.stopEngine();
     }
