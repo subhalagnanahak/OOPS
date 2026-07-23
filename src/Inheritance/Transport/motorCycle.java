@@ -16,4 +16,7 @@ public class motorCycle extends Vehicle {
 
     public void stopEngine() {
     }
+
+    public void startEngine() {
+    }
 }
