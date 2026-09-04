@@ -1,4 +1,4 @@
-package Transport;
+package Inheritance.Transport;
 
 public class Car extends Vehicle {
     public int noOfDoors;

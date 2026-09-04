@@ -1,4 +1,4 @@
-package Transport;
+package Inheritance.Transport;
 
 public class motorCycle extends Vehicle {
     public String handleBarStyle ;
