@@ -1,4 +1,5 @@
 package CollectionFramework;
+import java.sql.SQLOutput;
 import java.util.*;
 
 import static javax.swing.UIManager.get;
@@ -11,6 +12,7 @@ public class ArrayList_collectionFrame {
             // ArrayList  -- concrete class
           // ArrayList<Integer> arr = new ArrayList <> () ;
             //or
+            //List
             List <Integer> list = new ArrayList<> () ;
             // or
             // parent root element
@@ -89,6 +91,12 @@ public class ArrayList_collectionFrame {
             //ensureCapacity
             ArrayList<Integer> marks = new ArrayList<>() ;
             marks.ensureCapacity(100);
+            //isEmpty()
+            System.out.println(newlist.isEmpty());
+            //indexOf
+            System.out.println(newlist.indexOf(30));
+
+
 
 
 
