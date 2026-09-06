@@ -7,8 +7,8 @@ public class HashSetBasics {
 
         HashSet<Student> set3 = new HashSet<>();
         Student s1 = new Student( 1, "John Smith" );
-        Student s2 = new Student( 1, "John Smith" );
-        Student s3 = new Student( 1, "John Smith" ) ;
+        Student s2 = new Student( 2, "John Smith" );
+        Student s3 = new Student( 3, "John Smith" ) ;
 
         set3.add(s1);
         set3.add(s2);
