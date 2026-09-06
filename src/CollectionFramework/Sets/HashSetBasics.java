@@ -5,6 +5,19 @@ public class HashSetBasics {
 
     public static void main(String[] args) {
 
+        HashSet<Student> set3 = new HashSet<>();
+        Student s1 = new Student( 1, "John Smith" );
+        Student s2 = new Student( 1, "John Smith" );
+        Student s3 = new Student( 1, "John Smith" ) ;
+
+        set3.add(s1);
+        set3.add(s2);
+        set3.add(s3);
+
+        System.out.println(set3);
+        System.out.println("Size: " + set3.size());
+
+/*
         // 1. Creating a HashSet
         HashSet<String> set = new HashSet<>();
 
@@ -85,6 +98,8 @@ public class HashSetBasics {
         System.out.println("After clear(): " + cloned + " | isEmpty: " + cloned.isEmpty());
 
         // Note: HashSet has NO get(index) or ordering guarantee,
+
         // since it's backed by a HashMap internally (no duplicates, unordered).
+   */
     }
 }
