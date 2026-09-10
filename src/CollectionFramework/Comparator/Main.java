@@ -6,6 +6,18 @@ import java.util.List;
 
 public class Main {
     public static void main (String [] args) {
+
+
+
+        List<Student> students = new ArrayList<>();
+
+        students.add(new Student(19,"vipul",69));
+        students.add(new Student(21,"samaira",45));
+        students.add(new Student(20,"rinna",99));
+        students.add(new Student(21,"sara",90));
+        students.add(new Student(21,"kijal",88));
+
+
 //
 //        List<Integer> list = new ArrayList<Integer>();
 //        list.add(1);
