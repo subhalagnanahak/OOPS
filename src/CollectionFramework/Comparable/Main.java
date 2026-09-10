@@ -1,4 +1,4 @@
-package CollectionFramework.Comparator;
+package CollectionFramework.Comparable;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -15,9 +15,10 @@ public class Main {
         students.add(new Student(21,"samaira",45));
         students.add(new Student(20,"rinna",99));
         students.add(new Student(21,"sara",90));
-        students.add(new Student(21,"kijal",88));
+        students.add(new Student(21,"kinjal",88));
 
         System.out.println(students);
+
         Collections.sort(students);
         System.out.println(students);
 

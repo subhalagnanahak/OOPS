@@ -1,4 +1,4 @@
-package CollectionFramework.Comparator;
+package CollectionFramework.Comparable;
 
 public class Student implements Comparable<Student> {
 
@@ -52,6 +52,9 @@ public class Student implements Comparable<Student> {
         // we will define our sorting logic here
 
         // sort basis on age
+        if(this.age == that.age){
+            return this.name.compareTo(that.name);
+        }
         return this.age - that.age;
 
     }
