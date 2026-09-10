@@ -1,6 +1,6 @@
 package CollectionFramework.Comparator;
 
-public class Student {
+public class Student implements Comparable {
 
     public int age;
     public  String name;
@@ -43,5 +43,12 @@ public class Student {
                 ", name='" + name + '\'' +
                 ", weight=" + weight +
                 '}';
+    }
+
+    @Override
+    public int compareTo(Object o)
+    {
+
+        return 0;
     }
 }

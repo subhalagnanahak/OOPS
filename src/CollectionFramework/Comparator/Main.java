@@ -18,6 +18,11 @@ public class Main {
         students.add(new Student(21,"kijal",88));
 
         System.out.println(students);
+        Collections.sort(students);
+        System.out.println(students);
+
+
+        
 
 
 
