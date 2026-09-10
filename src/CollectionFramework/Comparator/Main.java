@@ -18,6 +18,7 @@ public class Main {
         students.add(new Student(21,"kijal",88));
 
 
+
 //
 //        List<Integer> list = new ArrayList<Integer>();
 //        list.add(1);
