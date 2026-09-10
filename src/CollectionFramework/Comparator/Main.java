@@ -17,6 +17,8 @@ public class Main {
         students.add(new Student(21,"sara",90));
         students.add(new Student(21,"kijal",88));
 
+        System.out.println(students);
+
 
 
 //

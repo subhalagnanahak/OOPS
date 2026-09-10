@@ -38,6 +38,10 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student{name='" + name + "', age=" + age + ", weight=" + weight + "}";
+        return "Student{" +
+                "age=" + age +
+                ", name='" + name + '\'' +
+                ", weight=" + weight +
+                '}';
     }
 }
