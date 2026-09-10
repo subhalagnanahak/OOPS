@@ -14,10 +14,9 @@ public class HashSetBasics {
         set3.add(s2);
         set3.add(s3);
 
-        System.out.println(set3);
-        System.out.println("Size: " + set3.size());
+//        System.out.println(set3);
+//        System.out.println("Size: " + set3.size());
 
-/*
         // 1. Creating a HashSet
         HashSet<String> set = new HashSet<>();
 
@@ -100,6 +99,6 @@ public class HashSetBasics {
         // Note: HashSet has NO get(index) or ordering guarantee,
 
         // since it's backed by a HashMap internally (no duplicates, unordered).
-   */
+
     }
 }
