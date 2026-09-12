@@ -1,18 +1,6 @@
 package Array;
 
 public class ArrayProblems {
-//    static double getAvg(int[] arr) {
-//        double sum = 0;
-//        for (int i : arr) {
-//            sum += i;
-//
-//        }
-//
-//        int size = arr.length;
-//        double avg = sum / size;
-//        return avg;
-//
-//    }
 
     // multiply each element by 10
     // Method that takes an array and returns a new array with each element multiplied by 10
@@ -43,60 +31,26 @@ public class ArrayProblems {
 
     // Find the maximum elemnt in array
 
-//    public static int getMax(int[] arr) {
-//        int maxi = arr[0];              // start by assuming the first element is the max
-//
-//        for (int i : arr) {            // for-each loop: i takes each value in arr, one by one
-//            if (i > maxi) {             // if current value is bigger than current max
-//                maxi = i;               // update max
-//            }
-//        }
-//
-//        return maxi;                    // send back the largest value found
-//
-//
-//    }
+    public static int [] Count0and1(int [] array) {
+        int zero = 0;
+        int one = 0;
 
-    public static int [] getPosNegSum(int[] arr) {
-        int PosSum = 0;
-        int NegSum = 0;
-
-        int i;
-        for (i = 0; i < arr.length; i++)
-        {
-            if (arr[i] > 0) {
-                // if the element is > 0 its postitive
-
-                PosSum += arr[i];
-
-
-            } else {
-                // if the element is < 0 which is negetive
-                NegSum += arr[i];
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] == 0) {
+                zero++;
+            } else if (array[i] == 1) {
+                one++;
             }
-
-
-
         }
-        int ans[] = {PosSum, NegSum};
-        return ans;
-
-        //Return Sum of -ve and +ve number
+        int  result[]  = {zero, one} ;
+        return result ;
     }
 
+
+
+
+
     public static void main(String[] args) {   // program's entry point (added 'public' — required for it to run)
-       int[] arr = {2, -4, 10, -3};
-       int ans [] =  getPosNegSum(arr);
-       System.out.println("positive Sum  " + ans [0]);
-       System.out.println("negative Sum  " + ans [1]);
-
-
-
-//        int result = getMax(arr );
-//        System.out.println(result);
-
-
-        // original array of numbers
 //         boolean result = findTarget(arr, 4);
 //         System.out.println(result);
 //        int ans[] = multiplyBy10(arr);          // call the method, store the resulting array in ans
@@ -106,8 +60,13 @@ public class ArrayProblems {
 //        for (int i : ans) {                     // for-each loop: i takes each value in ans, one by one
 //            System.out.print(i + " ");          // print each value followed by a space
 
-
 //            System.out.println(getAvg(arr));
 //            System.out.println(newArray);
+
+        int [] arr =  {0,1,0,1,0 , 0 ,1};
+        int ans [] = Count0and1(arr);
+        System.out.println("Zero Count =" + ans[0]);
+        System.out.println("One Count =" + ans[1]);
+
     }
 }
