@@ -1,3 +1,4 @@
+package Array;
 
 public class ArrayManipulation {
     static void ReverseArray(int[] arr) {
