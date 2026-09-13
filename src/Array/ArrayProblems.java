@@ -1,5 +1,7 @@
 package Array;
 
+import java.util.Arrays;
+
 public class ArrayProblems {
 
     // Find the average of array elements
@@ -99,5 +101,15 @@ public class ArrayProblems {
         int[] unsortedArr = {1, 3, 5, 2, 8};
         int firstUnsorted = findFirstUnsorted(unsortedArr);
         System.out.println("First unsorted element: " + firstUnsorted);
+
+        //findTarget
+        // findTarget
+        int[] intsFindTarget = {1, 2, 3, 45, 9, 5};
+        int target = 1;
+        boolean result = findTarget(intsFindTarget, target);   // actually call the method
+        System.out.println("Found? " + result);
+
+
+
     }
 }
