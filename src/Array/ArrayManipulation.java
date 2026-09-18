@@ -88,11 +88,44 @@ public class ArrayManipulation {
         HashMap<Integer, Integer> freq = new HashMap<>();
 
         //insert data
+        for (int num : arr) {
+            freq.put(num, freq.getOrDefault(num, 0) + 1);
+        }
+         //hashmap is ready
+        int highestFreq = Integer.MIN_VALUE;
+        int highestNum = -1;
+
+        for (int key : freq.keySet()) {
+            int currentKey = key;
+            int currentKeyFreq = freq.get(key);
+            if (currentKeyFreq > highestFreq) {
+                //highest ko update  karna chahiye
+                highestFreq = currentKeyFreq;
+                highestNum = currentKey;
+            }
+
+        }
+        int lowestFreq = Integer.MAX_VALUE;
+        int lowestNum = -1;
+        for (int key : freq.keySet()) {
+            int currentKey = key;
+            int currentKeyFreq = freq.get(key);
+            if (currentKeyFreq < lowestFreq) {
+                //its time to update
+                lowestFreq = currentKeyFreq;
+                lowestNum = key;
+            }
+        }
+        int ans [] = {highestNum , lowestNum} ;
+        return ans;
+
     }
 
 
         public static void main(String[] args) {
             int arr[] = {1, 2, 3, 4, 0, 0, 9 , 9 , 9 ,9 , 8, 0, 8, 8, 5};
+
+            int ans = getHighestLowestFreqElement(arr);
 //            int ans = getMode(arr);
 //            System.out.println("Mode: " + ans);
         }
