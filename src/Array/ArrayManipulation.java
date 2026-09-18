@@ -84,6 +84,8 @@ public class ArrayManipulation {
             return maxFreqKey;
         }
 
+
+
         public static void main(String[] args) {
             int arr[] = {1, 2, 3, 4, 0, 0, 9 , 9 , 9 ,9 , 8, 0, 8, 8, 5};
             int ans = getMode(arr);
