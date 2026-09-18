@@ -125,8 +125,8 @@ public class ArrayManipulation {
         public static void main(String[] args) {
             int arr[] = {1, 2, 3, 4, 0, 0, 9 , 9 , 9 ,9 , 8, 0, 8, 8, 5};
 
-            int[] ans = getHighestLowestFreqElement(arr);
-            System.out.print(ans);
+            int ans[]  = getHighestLowestFreqElement(arr);
+            System.out.print("highest frequency" + ans [0]);
 //            int ans = getMode(arr);
 //            System.out.println("Mode: " + ans);
         }
