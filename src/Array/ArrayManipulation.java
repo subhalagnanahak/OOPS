@@ -31,9 +31,9 @@ public class ArrayManipulation {
 
     static void rightShift(int[] arr) {
         int n = arr.length;
-        int temp =  arr[n - 1];
+        int temp = arr[n - 1];
 
-        for (int i = n - 1 ; i > 0; i--) {
+        for (int i = n - 1; i > 0; i--) {
             arr[i] = arr[i - 1];
         }
         arr[0] = temp;
@@ -43,18 +43,18 @@ public class ArrayManipulation {
 
     static void printAlternative(int[] arr) {
         int n = arr.length;
-        int i  = 0;
+        int i = 0;
         int j = n - 1;
-        while (i <=  j) {
-            if (i == j ) {
+        while (i <= j) {
+            if (i == j) {
                 System.out.print(arr[i] + " ");
                 return;
-            }else {
+            } else {
                 //i<j
                 System.out.println(arr[i] + " ");
-                 i ++;
-                System.out.println(arr[j] + " ") ;
-                 j -- ;
+                i++;
+                System.out.println(arr[j] + " ");
+                j--;
 
             }
         }
@@ -62,34 +62,39 @@ public class ArrayManipulation {
     }
 
 
-   // public class Solution {
+    // public class Solution {
 
-        static int getMode(int arr[]) {
-            HashMap<Integer, Integer> freq = new HashMap<>();
+    static int getMode(int arr[]) {
+        HashMap<Integer, Integer> freq = new HashMap<>();
 
-            for (int num : arr) {
-                freq.put(num, freq.getOrDefault(num, 0) + 1);
-            }
-
-            int maxFreq = -1;
-            int maxFreqKey = -1;
-            for (int key : freq.keySet()) {
-                int currentKey = key;
-                int currentKeyFrequency = freq.get(key);
-                if (currentKeyFrequency > maxFreq) {
-                    maxFreq = currentKeyFrequency;
-                    maxFreqKey = currentKey;
-                }
-            }
-            return maxFreqKey;
+        for (int num : arr) {
+            freq.put(num, freq.getOrDefault(num, 0) + 1);
         }
 
+        int maxFreq = -1;
+        int maxFreqKey = -1;
+        for (int key : freq.keySet()) {
+            int currentKey = key;
+            int currentKeyFrequency = freq.get(key);
+            if (currentKeyFrequency > maxFreq) {
+                maxFreq = currentKeyFrequency;
+                maxFreqKey = currentKey;
+            }
+        }
+        return maxFreqKey;
+    }
+
+    static int[] getHighestLowestFreqElement(int arr[]) {
+        HashMap<Integer, Integer> freq = new HashMap<>();
+
+        //insert data
+    }
 
 
         public static void main(String[] args) {
             int arr[] = {1, 2, 3, 4, 0, 0, 9 , 9 , 9 ,9 , 8, 0, 8, 8, 5};
-            int ans = getMode(arr);
-            System.out.println("Mode: " + ans);
+//            int ans = getMode(arr);
+//            System.out.println("Mode: " + ans);
         }
     }
 //         ArrayManipulation.ReverseArray(arr);
@@ -100,7 +105,6 @@ public class ArrayManipulation {
        // getMode (arr);
 
        // printAlternative(arr);
-
 
 
 
