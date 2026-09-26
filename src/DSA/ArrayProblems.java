@@ -1,6 +1,4 @@
-package Array;
-
-import java.util.Arrays;
+package DSA;
 
 public class ArrayProblems {
 
