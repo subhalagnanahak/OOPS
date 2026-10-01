@@ -19,7 +19,6 @@ public class ThreeSum {
                         temp.add(nums[j]);
                         temp.add(nums[k]);
 
-
                         output.add(temp);
 
 
@@ -30,7 +29,6 @@ public class ThreeSum {
         }
         return output;
     }
-
 
     public static void main(String[] args) {
 
